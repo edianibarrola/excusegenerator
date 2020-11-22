@@ -1,0 +1,11 @@
+html {
+    display: inline-block;
+    background-color: tomato;
+    color: yellowgreen;
+}
+p {
+    margin: auto%;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 20%;
+}
