@@ -10,12 +10,13 @@ window.onload = () => {
 
 let generateExcuse= () => {
     //console.log(who[randomNumber()] + action[randomNumber()] + what[randomNumber()] + when[randomNumber()]);
-    return(who[randomNumber()] + action[randomNumber()] + what[randomNumber()] + when[randomNumber()]);
+    return(who[randomNumber(who.length)] + action[randomNumber(action.length)] + what[randomNumber(what.length)] + when[randomNumber(when.length)]);
 };
 
 
-function randomNumber(){
-    return Math.floor(Math.random()*4);
+function randomNumber(length){
+    return Math.floor(Math.random()*length);
 }
 
 generateExcuse();
+
