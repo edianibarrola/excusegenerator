@@ -26,3 +26,8 @@ p {
     50%{background-position:100% 25%}
     100%{background-position:0% 50%}
 }
+button {
+    background: lawngreen;
+    display: flex;
+    margin:auto;
+}
